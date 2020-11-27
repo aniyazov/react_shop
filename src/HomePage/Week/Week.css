@@ -1,0 +1,63 @@
+.Week {
+  position: relative;
+  width: 430px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 0;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #d41e31, #491f8f);
+}
+
+.Week img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 300px;
+  width: 270px;
+  transition: 0.5s;
+}
+
+.Week:hover img {
+  left: 74%;
+  height: 330px;
+  width: 300px;
+}
+
+.Week .WeekContent {
+  position: relative;
+  width: 50%;
+  left: 20%;
+  padding: 20px 10px 20px 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.Week:hover .WeekContent {
+  opacity: 1;
+  visibility: visible;
+  left: 0%;
+}
+
+.Week .WeekContent h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+.Week .WeekContent p {
+  color: #fff;
+  font-size: 1em;
+}
+.Week .WeekContent a {
+  position: relative;
+  display: inline-block;
+  color: #111;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #fff;
+}

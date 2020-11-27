@@ -1,0 +1,9 @@
+.menu-categories {
+  background-color: #f0f0f4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 53px;
+  font-weight: 400;
+  border-radius: 20px;
+}

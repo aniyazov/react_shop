@@ -1,0 +1,12 @@
+.header-box {
+  display: flex;
+}
+.user-list {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+.user-list_item {
+  display: inline-block;
+  padding-right: 10px;
+}

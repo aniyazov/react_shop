@@ -1,0 +1,6 @@
+.menu_item {
+  display: inline-block;
+}
+.menu_item + .menu_item {
+  padding-left: 50px;
+}
