@@ -7,7 +7,7 @@ function Week() {
     return (
         <div className='Week'>
             <div className='WeekContent'>
-                <h2>Неделя Капитан Марвел</h2>
+                <h2>Неделя RDR2</h2>
                 <p>Заказывайте эксклюзивные товары по данной тематике</p>
                 <a href='#'>Посмотреть</a>
             </div>

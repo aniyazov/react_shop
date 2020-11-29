@@ -1,16 +1,24 @@
-import React from 'react'
+import React from 'react';
+import './Products.css';
+import Product from './Product/Product'
+
 
 function Products() {
     return (
         <div className='productsContent'>
-            <a className='productItem' href='#'>
-                <img className='productItemImg'/>
-                <h4 className='productItemTitle'></h4>
-                <p className='productItemPrice'></p>
+            <h2 className='productsContentDep'>Популярные товары:</h2>
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            <a className='productItemMainLink' href='#'>
+                Посмотреть все товары
             </a>
-
+            
         </div>
+        
     )
 }
 
-export default Products
+export default Products;

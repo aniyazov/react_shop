@@ -3,9 +3,10 @@
   margin: 0 auto;
   margin-top: 25px;
   display: flex;
+  flex-wrap: wrap;
 }
 
-.HomePage img {
+.HotSale {
   width: 720px;
   height: 300px;
   border-radius: 20px;

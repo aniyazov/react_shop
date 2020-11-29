@@ -1,6 +1,6 @@
 .Week {
   position: relative;
-  width: 430px;
+  width: 400px;
   height: 300px;
   margin-left: 20px;
   margin-top: 0;
@@ -34,6 +34,7 @@
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
+  z-index: 1;
 }
 
 .Week:hover .WeekContent {
@@ -51,7 +52,7 @@
 
 .Week .WeekContent p {
   color: #fff;
-  font-size: 1em;
+  font-size: 0.75em;
 }
 .Week .WeekContent a {
   position: relative;
@@ -60,4 +61,5 @@
   padding: 10px 20px;
   border-radius: 10px;
   background: #fff;
+  font-size: 0.75em;
 }
