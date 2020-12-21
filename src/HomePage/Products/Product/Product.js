@@ -1,17 +1,29 @@
 import React from 'react'
 import './Product.css'
 import BasketPic from './basket.svg';
-import ProductImage from './product1.jpg'
+import HeartPic from './../../../Header/UserPanel/heart.svg';
 
-function Product() {
+
+
+function Product(props) {
+console.log(props)
     return (
             <a className='productItem' href='#'>
-                <img className='productItemImg' src={ProductImage}/>
-                <h4 className='productItemTitle'>Настольная игра "Буритто" </h4>
-                <p className='productItemPrice'>250 000 сум</p>
+                <div className='productItemImgWrap'>     
+                    <img className='productItemImg' src={props.image}/>
+                </div>
+                <span className='productItemTitle'>{props.name}</span>
+                <span className='productItemDiskp'>{props.description} </span>
+                <p className='productItemPrice'>{props.price} {' сум'} </p>
+                <div className='buttons'> 
                 <button className='productItemBasket'>
                     <img src={BasketPic} />
                 </button>
+                 <button className='productItemBasket heart'>
+                    <img src={HeartPic} />
+                </button>
+                </div>
+               
             </a>
     )
 }

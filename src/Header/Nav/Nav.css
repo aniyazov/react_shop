@@ -4,3 +4,6 @@
 .menu_item + .menu_item {
   padding-left: 50px;
 }
+.menu_link {
+  color: white;
+}

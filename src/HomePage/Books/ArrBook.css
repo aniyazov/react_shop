@@ -1,0 +1,44 @@
+.ArrBook {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ArrBook p {
+  text-align: justify;
+}
+.leftSide {
+  width: 50%;
+}
+
+.rightSide {
+  width: 50%;
+}
+
+.authorBlock {
+  height: 400px;
+  width: 400px;
+  background-color: #cb1f40;
+  clip-path: circle(80.4% at 89% 100%);
+  margin: 0 auto;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  overflow: hidden;
+  z-index: 1;
+}
+.authorBlockImg {
+  z-index: 2;
+  position: absolute;
+  width: 400px;
+  left: 60%;
+}
+
+.leftSideH {
+  color: #cb1f40;
+  line-height: 110%;
+}
+.leftSide {
+  color: #fff;
+}

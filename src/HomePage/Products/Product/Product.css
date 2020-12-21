@@ -2,41 +2,76 @@
   display: block;
   border: 1px solid #cdcdcd;
   border-radius: 20px;
-  position: relative;
-  text-align: center;
-  padding: 52px 10px 31px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 0.9em;
+  width: 24%;
+  background-color: #fff;
 }
 .productsContent h2 {
   width: 100%;
 }
-
+.productItemImgWrap {
+  text-align: center;
+}
 .productItemImg {
-  width: 100px;
-  height: 100px;
+  height: 143px;
+  width: 140px;
+  margin-top: 10px;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 .productItemTitle {
-  padding: 14px 0 20px;
+  padding: 20px 10px 0px 10px;
 }
 
 .productItemPrice {
   font-weight: bold;
   font-size: 20px;
   line-height: 36px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+  color: #0c1f2c;
 }
 .productItemBasket {
-  position: absolute;
-  width: 60px;
+  width: 62px;
   height: 40px;
   background-color: #fff;
-  background: #1c62cd;
-  border-radius: 10px 0 0 0;
+  background: #0c1f2c;
+  border-radius: 10px 10px 10px 10px;
   border: none;
   bottom: 0;
   right: 0;
   padding-top: 7px;
   cursor: pointer;
+  margin: 5px;
 }
+.productItemTitle {
+  font-size: 1em;
+  display: block;
+  color: #0c1f2c;
+  font-weight: bold;
+  padding: 0;
+  padding-left: 10px;
+}
+.productItemDiskp {
+  padding-left: 10px;
+  font-size: 0.95em;
+  display: block;
+}
+.buttons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.heart {
+  background-color: #cb1f40;
+}
+/*
+#1c62cd
+*/

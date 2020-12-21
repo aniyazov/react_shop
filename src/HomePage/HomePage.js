@@ -4,13 +4,18 @@ import './HomePage.css'
 import Week from './Week/Week'
 import Products from './Products/Products'
 import Footer from '../Footer/Footer'
+import NewArr from './NewArr/NewArr'
+import ArrBook from './Books/ArrBook'
 
-function HomePage() {
+
+
+function HomePage(props) {
     return (
         <div className='HomePage'>
             <img src={HotSale} className='HotSale'/> 
             <Week/>
-            <Products/>
+            <Products  intProd = {props.intProd}/>
+            <ArrBook/>
             <Footer/>
         </div>
         

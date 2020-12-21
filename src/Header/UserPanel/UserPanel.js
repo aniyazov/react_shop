@@ -2,6 +2,7 @@ import React from 'react'
 import  './UserPanel.css';
 import UserPic from './user.svg';
 import BasketPic from './basket.svg';
+import HeartPic from './heart.svg';
 
 function UserPanel() {
     return (
@@ -15,6 +16,11 @@ function UserPanel() {
                 <li className='user-list_item'>
                     <a className='user-list_link'>
                         <img src={BasketPic}></img>
+                    </a>
+                </li>
+                <li className='user-list_item'>
+                    <a className='user-list_link'>
+                        <img src={HeartPic}></img>
                     </a>
                 </li>
             </ul>

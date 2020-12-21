@@ -1,5 +1,5 @@
 .menu-categories {
-  background-color: #f0f0f4;
+  background-color: #cb1f40;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -7,3 +7,9 @@
   font-weight: 400;
   border-radius: 20px;
 }
+.menu-categories_link {
+  color: #0c1f2c;
+}
+/*
+ #f0f0f4
+*/

@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header/Header'
 import HomePage from './HomePage/HomePage';
+import data from './data'
 
 
-function App() {
+function App( ) {
   return (
     <div className="App">
       <Header/>
-      <HomePage/>
+      <HomePage intProd = {data.products}/>
     </div>
   );
 }
